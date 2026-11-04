@@ -1,10 +1,9 @@
 import React from 'react'
-
+import Header from './components/Header'
 const App = () => {
   return (
     <div>
-      App
-     <h1>Salom Muza</h1>
+     <Header/>
     </div>
 
   )
