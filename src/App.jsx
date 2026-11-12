@@ -12,7 +12,10 @@ const App = () => {
     <div className="min-h-screen bg-[#fbfdfc]">
       <Header />
       <Ismat />
-      <Muza />
+      {/* Muza qismida relative top-[60px] bor — keyingi qism ustiga chiqmasligi uchun joy */}
+      <div className="pb-[90px]">
+        <Muza />
+      </div>
       <Aziz />
     </div>
   )
